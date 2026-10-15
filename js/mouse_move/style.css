@@ -1,0 +1,52 @@
+ .box {
+   background-color: black;
+   width: 100px;
+   height: 30px;
+
+   position: static;
+   margin: 0 auto;
+ }
+
+ .lines-wrapper {
+   height: 100vh !important;
+   width: 100% !important;
+   position: relative;
+ }
+
+ .line {
+   background: dodgerblue;
+   background: url(logo_circle.svg) no-repeat;
+   background-size: cover;
+   background-position: 0%;
+   position: absolute;
+
+
+ }
+
+
+ .line_anim_wrapper {
+   position: relative;
+   /* Important: local positioning context */
+   width: min(90vw, 2000px);
+   height: min(100vh, 620px);
+   border-radius: 12px;
+   overflow: hidden;
+   /* Clip children if they overflow */
+   cursor: none;
+ }
+
+ .overlay {
+   position: absolute;
+   left: 0%;
+   right: 0%;
+   top: 0%;
+   bottom: 0%;
+   background: #0059ac1c;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 200px;
+   z-index: 1;
+   text-align: center;
+
+ }
