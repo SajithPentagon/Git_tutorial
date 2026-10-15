@@ -1,0 +1,1311 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Winson</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <!-- Owl -->
+  <link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+
+  <!-- Fontawsome -->
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+
+  <link rel='stylesheet' href='css/animate.min.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='css/aos.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='css/leaflet.css' type='text/css' media='all' />
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet">
+
+  <link href="scss/menu.css" rel="stylesheet">
+  <!-- <link href="css/cursor.css" rel="stylesheet"> -->
+
+  <link rel='stylesheet' href='css/flex.css' type='text/css' media='all' />
+
+  <link rel='stylesheet' href='scss/style.css' type='text/css' media='all' />
+
+
+</head>
+
+<body>
+
+  <!-- class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4  -->
+
+  <!-- <span id="cursor">
+    <span id="cursor__inner"></span>
+  </span> -->
+
+
+
+
+
+  <div id="loader">
+    <img src="images/logo.svg">
+  </div>
+
+
+
+  <header class="header">
+    <nav>
+      <div class="wrapper">
+        <div class="logo"><a href="#" data-cursor-hover data-cursor-type="1"><img src="images/logo.svg"></a></div>
+        <input type="checkbox" name="slider" id="menu-btn">
+        <!-- <input type="radio" name="slider" id="close-btn"> -->
+
+        <ul class="nav-links">
+          <!-- <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label> -->
+          <li><a href="#" data-cursor-hover>Our Team</a></li>
+          <li><a href="#" data-cursor-hover>Our Practices </a></li>
+          <li>
+            <a href="#" class="desktop-item" data-cursor-hover>Insights</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Insights</label>
+            <ul class="drop-menu">
+              <li><a href="#">Library </a></li>
+              <li><a href="#">Intelligence </a></li>
+              <li><a href="#">Announcement</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#" data-cursor-hover>About Us</a></li>
+          <li><a href="#" data-cursor-hover class="more full">Contact Us</a></li>
+          <li>
+            <a href="#" class="desktop-item langs" data-cursor-hover>En<span class="yellow_color">.</span></a>
+            <input type="checkbox" id="showDrop2">
+            <label for="showDrop2" class="mobile-item">En<span class="yellow_color">.</span></label>
+            <ul class="drop-menu lang">
+              <li><a href="#">Ch<span class="yellow_color">.</span></a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="searchs"><img src="images/search.svg" alt="Search"></a>
+            <div class="search_bar">
+              <form class="wrap">
+                <input type="text" placeholder="Search..." class="searchTerm">
+                <button type="submit" class="searchButton">
+                  <img src="images/submit.svg" alt="Search">
+                </button>
+
+                <a href="#" class="close_search" data-cursor-hover><img src="images/close.svg" alt="Close"></a>
+              </form>
+            </div>
+          </li>
+
+        </ul>
+
+        <label for="menu-btn" class="btn menu-btn">
+
+
+          <svg width="100" height="100" viewBox="0 0 100 100"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+            aria-label="Main Menu">
+            <path class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+          </svg>
+
+
+        </label>
+      </div>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="flexslider">
+      <ul class="slides">
+
+        <li style="background: url(images/hero_banner/hero1.jpg);">
+          <div class="container">
+            <div class="meta">
+              <h2 class="bigs">Your <span class="yellow_color">Legal Partner</span> Across China, Middle East, Africa, &
+                Beyond. </h2>
+              <a href="#" class="more dark">Explore More <img src="images/more_arrow.svg" alt="Arrow" class="arrow"></a>
+
+            </div>
+          </div>
+        </li>
+
+        <li style="background: url(images/hero_banner/hero2.jpg);">
+          <div class="container">
+            <div class="meta">
+              <h2 class="bigs">Your <span class="yellow_color">Legal Partner</span> Across China, Middle East, Africa, &
+                Beyond. </h2>
+              <a href="#" class="more dark">Explore More <img src="images/more_arrow.svg" alt="Arrow" class="arrow"></a>
+
+            </div>
+          </div>
+        </li>
+
+        <li style="background: url(images/hero_banner/hero3.jpg);">
+          <div class="container">
+            <div class="meta">
+              <h2 class="bigs">Your <span class="yellow_color">Legal Partner</span> Across China, Middle East, Africa, &
+                Beyond. </h2>
+              <a href="#" class="more dark">Explore More <img src="images/more_arrow.svg" alt="Arrow" class="arrow"></a>
+
+            </div>
+          </div>
+        </li>
+
+        <li style="background: url(images/hero_banner/hero4.jpg);">
+          <div class="container">
+            <div class="meta">
+              <h2 class="bigs">Your <span class="yellow_color">Legal Partner</span> Across China, Middle East, Africa, &
+                Beyond. </h2>
+              <a href="#" class="more dark">Explore More <img src="images/more_arrow.svg" alt="Arrow" class="arrow"></a>
+
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+
+
+  <section class="about">
+    <div class="container">
+      <div class="about__top">
+        <div class="about__intro" data-aos="fade-up" data-aos-duration="600">
+          <span class="about__eyebrow">
+            <span class="about__eyebrow-dot"></span>
+            About Winson
+          </span>
+
+          <h3 class="about__title blue_color">Where China<br>Meets the World.</h3>
+
+          <div class="about__locations-marquee">
+            <div class="about__locations-track">
+              <ul class="about__locations">
+                <li>China</li>
+                <li>UAE</li>
+                <li>Saudi Arabia</li>
+                <li>Egypt</li>
+                <li>Iraq</li>
+              </ul>
+              <ul class="about__locations" aria-hidden="true">
+                <li>China</li>
+                <li>UAE</li>
+                <li>Saudi Arabia</li>
+                <li>Egypt</li>
+                <li>Iraq</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__content" data-aos="fade-up" data-aos-duration="650">
+          <p class="about__text">
+            Winson Global is a leading China law firm with <strong>a multilingual, multijurisdiction team</strong>
+            and an established presence across <strong>20 countries</strong> spanning the Middle East, Africa,
+            Central Asia, and Southeast Asia
+          </p>
+
+          <a href="#" class="more ">Explore More <img src="images/more_arrow.svg" alt="Arrow" class="arrow"></a>
+        </div>
+
+        <div class="about__media" data-aos="fade-up" data-aos-duration="700">
+          <div class="about__video-wrap">
+            <video class="about__video" muted loop playsinline preload="metadata">
+              <source src="video/about_video.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__stats">
+        <div class="about__stat" data-aos="fade-up" data-aos-duration="650">
+          <div class="about__stat-value">
+            <span class="about__counter" data-target="150" data-decimals="0">0</span><span
+              class="about__suffix">+</span>
+          </div>
+          <p>Cross-Border Lawyers</p>
+        </div>
+
+        <div class="about__stat" data-aos="fade-up" data-aos-duration="700">
+          <div class="about__stat-value">
+            <span class="about__counter" data-target="1000" data-decimals="0">0</span><span
+              class="about__suffix">+</span>
+          </div>
+          <p>Clients</p>
+        </div>
+
+        <div class="about__stat" data-aos="fade-up" data-aos-duration="750">
+          <div class="about__stat-value">
+            <span class="about__prefix">$</span><span class="about__counter" data-target="1.5"
+              data-decimals="1">0</span> Bn<span class="about__suffix">+</span>
+          </div>
+          <p>Asset Recovered</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="achievements" data-active-region="egypt" data-aos="fade-up" data-aos-duration="400">
+    <div class="container">
+      <div class="achievements__panel">
+        <h2 class="achievements_heading">Our Achievements</h2>
+
+        <div class="achievements__stage" aria-label="Interactive achievement map">
+          <div class="achievements__globe-wrap">
+            <!-- <img class="achievements__globe" src="images/blue_map/map_blue.svg" alt="Regional coverage map"> -->
+
+            <button class="achievements__pin achievements__pin--active" type="button" style="--x: 24.9%; --y: 58.2%;"
+              data-region="egypt" data-title="Egypt - Cairo" data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="The Egyptian Law Firm Partner|Exclusive legal advisor to the Indonesian Embassy in Egypt|List of trusted law firms for the British, Russian, and other embassies in Egypt|Member of European Lawyers Network, ARIA International Law Firms Alliance, ADR Lawyers Alliance"
+              aria-label="Show Egypt achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+              <span>Egypt</span>
+            </button>
+
+            <button class="achievements__pin" type="button" style="--x: 35.4%; --y: 55.2%;" data-region="iraq"
+              data-title="Iraq - Baghdad" data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="Regional dispute recovery coordination|Cross-border corporate advisory support|Trusted local counsel network for commercial matters"
+              aria-label="Show Iraq achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+              <span>Iraq</span>
+            </button>
+
+            <button class="achievements__pin" type="button" style="--x: 35.8%; --y: 71.4%;" data-region="saudi"
+              data-title="Saudi Arabia - Riyadh" data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="Strategic investment and compliance support|Cross-border deal advisory for China-MENA transactions|Local coordination for regional corporate structures"
+              aria-label="Show Saudi Arabia achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+              <span>Saudi Arabia</span>
+            </button>
+
+            <button class="achievements__pin" type="button" style="--x: 42.3%; --y: 69.4%;" data-region="uae"
+              data-title="UAE - Dubai" data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="GCC-facing legal advisory coordination|Corporate structuring and regulatory support|Commercial entry guidance for cross-border investors"
+              aria-label="Show UAE achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+              <span>UAE</span>
+            </button>
+
+            <button class="achievements__pin" type="button" style="--x: 43.8%; --y: 77.8%;" data-region="oman"
+              data-title="Oman - Muscat" data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="Regional legal service collaboration|Cross-border compliance and documentation support|Business advisory links across Gulf markets"
+              aria-label="Show Oman achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+              <span>Oman</span>
+            </button>
+
+            <button class="achievements__pin achievements__pin--china" type="button" style="--x: 74.5%; --y: 46.2%;"
+              data-region="china" data-title="China - Beijing" data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="China outbound investment advisory|Belt and Road legal service coordination|Cross-border dispute and enforcement strategy"
+              aria-label="Show China achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+              <span>China</span>
+            </button>
+
+            <button class="achievements__pin achievements__pin--china achievements__pin--dot" type="button"
+              style="--x: 83.2%; --y: 33.9%;" data-region="china" data-title="China - Shanghai"
+              data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="China outbound investment advisory|Belt and Road legal service coordination|Cross-border dispute and enforcement strategy"
+              aria-label="Show Shanghai achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+            </button>
+
+            <button class="achievements__pin achievements__pin--china achievements__pin--dot" type="button"
+              style="--x: 84.4%; --y: 38%;" data-region="china" data-title="China - Hangzhou"
+              data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="China outbound investment advisory|Belt and Road legal service coordination|Cross-border dispute and enforcement strategy"
+              aria-label="Show Hangzhou achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+            </button>
+
+            <button class="achievements__pin achievements__pin--china achievements__pin--dot" type="button"
+              style="--x: 85.4%; --y: 42%;" data-region="china" data-title="China - Heading 1"
+              data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="China outbound investment advisory|Belt and Road legal service coordination|Cross-border dispute and enforcement strategy"
+              aria-label="Show Hangzhou achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+            </button>
+            <button class="achievements__pin achievements__pin--china achievements__pin--dot" type="button"
+              style="--x: 85.6%; --y: 46%;" data-region="china" data-title="China - Heading 2"
+              data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="China outbound investment advisory|Belt and Road legal service coordination|Cross-border dispute and enforcement strategy"
+              aria-label="Show Hangzhou achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+            </button>
+            <button class="achievements__pin achievements__pin--china achievements__pin--dot" type="button"
+              style="--x: 82%; --y: 50%;" data-region="china" data-title="China - Heading 3"
+              data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="China outbound investment advisory|Belt and Road legal service coordination|Cross-border dispute and enforcement strategy"
+              aria-label="Show Hangzhou achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+            </button>
+            <button class="achievements__pin achievements__pin--china achievements__pin--dot" type="button"
+              style="--x: 85%; --y: 51%;" data-region="china" data-title="China - Heading 4"
+              data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="China outbound investment advisory|Belt and Road legal service coordination|Cross-border dispute and enforcement strategy"
+              aria-label="Show Hangzhou achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+            </button>
+
+            <button class="achievements__pin achievements__pin--china achievements__pin--dot" type="button"
+              style="--x: 84%; --y: 55%;" data-region="china" data-title="China - Heading 5"
+              data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="China outbound investment advisory|Belt and Road legal service coordination|Cross-border dispute and enforcement strategy"
+              aria-label="Show Hangzhou achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+            </button>
+
+            <button class="achievements__pin achievements__pin--china achievements__pin--dot" type="button"
+              style="--x: 82%; --y: 57%;" data-region="china" data-title="China - Heading 6"
+              data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="China outbound investment advisory|Belt and Road legal service coordination|Cross-border dispute and enforcement strategy"
+              aria-label="Show Hangzhou achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+            </button>
+
+            <button class="achievements__pin achievements__pin--china achievements__pin--dot" type="button"
+              style="--x: 68%; --y: 42%;" data-region="china" data-title="China - Heading 7"
+              data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="China outbound investment advisory|Belt and Road legal service coordination|Cross-border dispute and enforcement strategy"
+              aria-label="Show Hangzhou achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+            </button>
+            <button class="achievements__pin achievements__pin--china achievements__pin--dot" type="button"
+              style="--x: 68%; --y: 54%;" data-region="china" data-title="China - Heading 8"
+              data-icon="images/blue_map/map_land_mark_icon.svg"
+              data-items="China outbound investment advisory|Belt and Road legal service coordination|Cross-border dispute and enforcement strategy"
+              aria-label="Show Hangzhou achievements">
+              <img class="achievements__pin-normal" src="images/blue_map/pointer_normal.svg" alt="" aria-hidden="true">
+              <img class="achievements__pin-active" src="images/blue_map/pointer_active.svg" alt="" aria-hidden="true">
+            </button>
+
+          </div>
+
+          <aside class="achievements__card achievements__card--animate" aria-live="polite">
+            <div class="achievements__card-head">
+              <h3 id="achievementTitle">Egypt - Cairo</h3>
+              <img id="achievementIcon" src="images/blue_map/map_land_mark_icon.svg" alt="" aria-hidden="true">
+            </div>
+            <ul id="achievementList">
+              <li>The Egyptian Law Firm Partner</li>
+              <li>Exclusive legal advisor to the Indonesian Embassy in Egypt</li>
+              <li>List of trusted law firms for the British, Russian, and other embassies in Egypt</li>
+              <li>Member of European Lawyers Network, ARIA International Law Firms Alliance, ADR Lawyers Alliance</li>
+            </ul>
+          </aside>
+          <div class="achievements__carousel-wrap">
+            <div class="owl-carousel owl-theme achievements__carousel" aria-label="Achievement details slider"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why_winson">
+    <div class="container">
+      <div class="why_winson__wrap">
+        <div class="why_winson__content" data-aos="fade-up" data-aos-duration="600">
+          <div class="why_winson__eyebrow">
+            <span class="why_winson__eyebrow-dot"></span>
+            <span>Why Us</span>
+          </div>
+
+          <h2 class="why_winson_heading blue_color">Why <span class="yellow_color">Winson</span>?<br>As your legal
+            partner.</h2>
+          <p class="why_winson__text">Five compelling reasons why the world's most ambitious cross-border businesses
+            trust Winson Global.</p>
+        </div>
+
+        <div class="why_winson__slider-wrap" data-aos="fade-up" data-aos-duration="700">
+          <div class="owl-carousel owl-theme why_winson__carousel">
+            <div class="why_winson__slide">
+              <article class="why_winson__card">
+                <img class="why_winson__icon" src="images/why_us/image1.svg" alt="" loading="lazy">
+                <h4>China-Middle East Legal Expertise</h4>
+                <p class="why_winson__card-text"><strong>The only GCC member of the Belt and Road Legal Services
+                    Alliance.</strong></p>
+                <p class="why_winson__card-text">Dual-trained in Chinese law and MENA jurisdictions: DIFC, ADGM, and
+                  Saudi frameworks.</p>
+                <a href="#" class="more ">Explore More <img src="images/more_arrow.svg" alt="Arrow" class="arrow"></a>
+              </article>
+            </div>
+
+            <div class="why_winson__slide">
+              <article class="why_winson__card">
+                <img class="why_winson__icon" src="images/why_us/image2.svg" alt="" loading="lazy">
+                <h4>Cross-Border Business Fluency</h4>
+                <p class="why_winson__card-text"><strong>Practical guidance for high-value deals and market
+                    entry.</strong></p>
+                <p class="why_winson__card-text">We help clients navigate language, documentation, regulatory, and
+                  commercial expectations across regions.</p>
+                <a href="#" class="more ">Explore More <img src="images/more_arrow.svg" alt="Arrow" class="arrow"></a>
+              </article>
+            </div>
+
+            <div class="why_winson__slide">
+              <article class="why_winson__card">
+                <img class="why_winson__icon" src="images/why_us/image3.svg" alt="" loading="lazy">
+                <h4>Integrated Regional Network</h4>
+                <p class="why_winson__card-text"><strong>Connected counsel across China, UAE, Saudi Arabia, Egypt and
+                    beyond.</strong></p>
+                <p class="why_winson__card-text">One coordinated team supports corporate, dispute, compliance,
+                  employment and enforcement matters.</p>
+                <a href="#" class="more ">Explore More <img src="images/more_arrow.svg" alt="Arrow" class="arrow"></a>
+              </article>
+            </div>
+
+            <div class="why_winson__slide">
+              <article class="why_winson__card">
+                <img class="why_winson__icon" src="images/why_us/image4.svg" alt="" loading="lazy">
+                <h4>Responsive Partner-Led Service</h4>
+                <p class="why_winson__card-text"><strong>Senior legal attention from strategy through
+                    execution.</strong></p>
+                <p class="why_winson__card-text">Clients receive clear next steps, fast coordination, and advice shaped
+                  around commercial outcomes.</p>
+                <a href="#" class="more ">Explore More <img src="images/more_arrow.svg" alt="Arrow" class="arrow"></a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experts">
+    <div class="container">
+      <div class="experts__head" data-aos="fade-up" data-aos-duration="600">
+        <div class="experts__title-wrap">
+          <div class="experts__eyebrow">
+            <span class="experts__eyebrow-dot"></span>
+            <span>Our Practices</span>
+          </div>
+
+          <h2 class="experts_heading blue_color">Expert Legal Counsel Across<br>Four Core Sectors<span
+              class="yellow_color">.</span></h2>
+        </div>
+
+        <p class="experts__intro">Our practice areas are built around the legal challenges businesses face in
+          China-related matters: from entity establishment and cross-border M&amp;A to cross-border litigation,
+          arbitration, and debt recovery.</p>
+      </div>
+
+      <div class="owl-carousel owl-theme experts__carousel practices-carousel" data-aos="fade-up"
+        data-aos-duration="700">
+        <div class="experts__slide">
+          <article class="experts__practice experts__practice--corporate">
+            <div class="experts__practice-content">
+              <h4>Corporate &amp;<br>Investment</h4>
+              <ul class="experts__hover-list">
+                <li>Litigation &amp; Arbitration</li>
+                <li>Cross-Border Criminal Defense</li>
+                <li>International Trade &amp; Dispute Resolution</li>
+                <li>Recognition &amp; Enforcement of Foreign Judgments in China</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="experts__slide">
+          <article class="experts__practice experts__practice--dispute">
+            <div class="experts__practice-content">
+              <h4>Dispute Resolution &amp;<br>Litigation</h4>
+              <ul class="experts__hover-list">
+                <li>Commercial Arbitration</li>
+                <li>Cross-Border Litigation Strategy</li>
+                <li>Debt Recovery &amp; Enforcement</li>
+                <li>Emergency Injunctions and Asset Preservation</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="experts__slide">
+          <article class="experts__practice experts__practice--industry">
+            <div class="experts__practice-content">
+              <h4>Industry &amp;<br>Infrastructure</h4>
+              <ul class="experts__hover-list">
+                <li>Infrastructure Project Advisory</li>
+                <li>Energy, Logistics &amp; Manufacturing</li>
+                <li>Public-Private Partnerships</li>
+                <li>Regulatory Approvals and Risk Review</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="experts__slide">
+          <article class="experts__practice experts__practice--innovation">
+            <div class="experts__practice-content">
+              <h4>Innovation &amp; IP</h4>
+              <ul class="experts__hover-list">
+                <li>Intellectual Property Protection</li>
+                <li>Technology Transfer Agreements</li>
+                <li>Data, AI &amp; Digital Compliance</li>
+                <li>Brand Enforcement Across Jurisdictions</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="teams">
+    <div class="container">
+      <div class="teams__panel">
+        <div class="teams__head" data-aos="fade-up" data-aos-duration="600">
+          <div class="teams__title-wrap">
+            <div class="teams__eyebrow">
+              <span class="teams__eyebrow-dot"></span>
+              <span>Meet Our Team</span>
+            </div>
+
+            <h2 class="teams_heading blue_color">Cross-border complexity is<br>where our lawyers thrive<span
+                class="yellow_color">.</span></h2>
+          </div>
+
+          <p class="teams__intro">Deep expertise. Multi-jurisdictional training. A team built specifically to navigate
+            the complexity of cross-border legal matters.</p>
+        </div>
+
+        <div class="teams__marquees" aria-label="Team members" data-aos="fade-up" data-aos-duration="700">
+          <div class="teams__marquee teams__marquee--one">
+            <div class="owl-carousel owl-theme teams__carousel teams__carousel--one">
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/1.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/2.jpg" alt="Fatima Al-Rashidi" loading="lazy">
+                <div>
+                  <h4>Fatima Al-Rashidi</h4>
+                  <p>Senior Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/3.jpg" alt="James Liu" loading="lazy">
+                <div>
+                  <h4>James Liu</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/4.jpg" alt="Dr. Chen Hao" loading="lazy">
+                <div>
+                  <h4>Dr. Chen Hao</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/5.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/1.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/2.jpg" alt="Fatima Al-Rashidi" loading="lazy">
+                <div>
+                  <h4>Fatima Al-Rashidi</h4>
+                  <p>Senior Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/3.jpg" alt="James Liu" loading="lazy">
+                <div>
+                  <h4>James Liu</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/4.jpg" alt="Dr. Chen Hao" loading="lazy">
+                <div>
+                  <h4>Dr. Chen Hao</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/5.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="teams__marquee teams__marquee--two">
+            <div class="owl-carousel owl-theme teams__carousel teams__carousel--two">
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/1.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/2.jpg" alt="Fatima Al-Rashidi" loading="lazy">
+                <div>
+                  <h4>Fatima Al-Rashidi</h4>
+                  <p>Senior Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/3.jpg" alt="James Liu" loading="lazy">
+                <div>
+                  <h4>James Liu</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/4.jpg" alt="Dr. Chen Hao" loading="lazy">
+                <div>
+                  <h4>Dr. Chen Hao</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/5.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/1.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/2.jpg" alt="Fatima Al-Rashidi" loading="lazy">
+                <div>
+                  <h4>Fatima Al-Rashidi</h4>
+                  <p>Senior Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/3.jpg" alt="James Liu" loading="lazy">
+                <div>
+                  <h4>James Liu</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/4.jpg" alt="Dr. Chen Hao" loading="lazy">
+                <div>
+                  <h4>Dr. Chen Hao</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/5.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="teams__marquee teams__marquee--three">
+            <div class="owl-carousel owl-theme teams__carousel teams__carousel--three">
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/1.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/2.jpg" alt="Fatima Al-Rashidi" loading="lazy">
+                <div>
+                  <h4>Fatima Al-Rashidi</h4>
+                  <p>Senior Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/3.jpg" alt="James Liu" loading="lazy">
+                <div>
+                  <h4>James Liu</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/4.jpg" alt="Dr. Chen Hao" loading="lazy">
+                <div>
+                  <h4>Dr. Chen Hao</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/5.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/1.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/2.jpg" alt="Fatima Al-Rashidi" loading="lazy">
+                <div>
+                  <h4>Fatima Al-Rashidi</h4>
+                  <p>Senior Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/3.jpg" alt="James Liu" loading="lazy">
+                <div>
+                  <h4>James Liu</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/4.jpg" alt="Dr. Chen Hao" loading="lazy">
+                <div>
+                  <h4>Dr. Chen Hao</h4>
+                  <p>Partner</p>
+                </div>
+              </article>
+              <article class="teams__card">
+                <img src="images/teams/home_team_slider/5.jpg" alt="Dr. Wei Zhang" loading="lazy">
+                <div>
+                  <h4>Dr. Wei Zhang</h4>
+                  <p>Director, Egypt Office</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="home_news">
+    <div class="container">
+      <div class="home_news__head" data-aos="fade-up" data-aos-duration="600">
+        <div class="home_news__title-wrap">
+          <div class="home_news__eyebrow">
+            <span class="home_news__eyebrow-dot"></span>
+            <span>Legal Insights</span>
+          </div>
+
+          <h2 class="home_news_heading blue_color">Latest News &amp; Alerts<span class="yellow_color">.</span></h2>
+        </div>
+        <a href="#" class="more">View All Insights <img src="images/more_arrow.svg" alt="Arrow" class="arrow"></a>
+
+      </div>
+
+      <div class="owl-carousel owl-theme home_news__carousel" aria-label="Latest news and alerts" data-aos="fade-up"
+        data-aos-duration="600">
+        <article class="home_news__card">
+          <a class="home_news__image" href="#" aria-label="Read New UAE Commercial Companies Law article">
+            <img src="images/news/1.jpg" alt="Legal team meeting with clients" loading="lazy">
+            <span class="home_news__tag">Newsletter</span>
+          </a>
+          <div class="home_news__content">
+            <h3><a href="#">New UAE Commercial Companies Law: What Chinese Investors Need to Know</a></h3>
+            <p>Recent amendments to UAE corporate law introduce significant changes to foreign ownership structures
+              formation.</p>
+          </div>
+        </article>
+
+        <article class="home_news__card">
+          <a class="home_news__image" href="#" aria-label="Read DIAC 2023 Rules vs CIETAC article">
+            <img src="images/news/2.jpg" alt="Professional consultation in an office" loading="lazy">
+          </a>
+          <div class="home_news__content">
+            <h3><a href="#">DIAC 2023 Rules vs. CIETAC: Choosing the Right Forum for Sino-MENA Disputes</a></h3>
+            <p>DIAC 2023 Rules vs. CIETAC: Choosing the Right Forum for Sino-MENA Disputes</p>
+          </div>
+        </article>
+
+        <article class="home_news__card">
+          <a class="home_news__image" href="#" aria-label="Read Saudi Vision 2030 and Chinese Investment article">
+            <img src="images/news/3.jpg" alt="Legal advisory session with notes" loading="lazy">
+          </a>
+          <div class="home_news__content">
+            <h3><a href="#">Saudi Vision 2030 &amp; Chinese Investment: Legal Frameworks and Entry Strategies</a></h3>
+            <p>Saudi Vision 2030 &amp; Chinese Investment: Legal Frameworks and Entry Strategies</p>
+          </div>
+        </article>
+
+        <article class="home_news__card">
+          <a class="home_news__image" href="#" aria-label="Read cross-border disputes article">
+            <img src="images/news/4.jpg" alt="Business people discussing legal strategy" loading="lazy">
+          </a>
+          <div class="home_news__content">
+            <h3><a href="#">DIAC 2023 Rules vs. CIETAC: Choosing the Right Forum for Sino-MENA Disputes</a></h3>
+            <p>DIAC 2023 Rules vs. CIETAC: Choosing the Right Forum for Sino-MENA Disputes</p>
+          </div>
+        </article>
+        <article class="home_news__card">
+          <a class="home_news__image" href="#" aria-label="Read New UAE Commercial Companies Law article">
+            <img src="images/news/1.jpg" alt="Legal team meeting with clients" loading="lazy">
+            <span class="home_news__tag">Newsletter</span>
+          </a>
+          <div class="home_news__content">
+            <h3><a href="#">New UAE Commercial Companies Law: What Chinese Investors Need to Know</a></h3>
+            <p>Recent amendments to UAE corporate law introduce significant changes to foreign ownership structures
+              formation.</p>
+          </div>
+        </article>
+
+        <article class="home_news__card">
+          <a class="home_news__image" href="#" aria-label="Read DIAC 2023 Rules vs CIETAC article">
+            <img src="images/news/2.jpg" alt="Professional consultation in an office" loading="lazy">
+          </a>
+          <div class="home_news__content">
+            <h3><a href="#">DIAC 2023 Rules vs. CIETAC: Choosing the Right Forum for Sino-MENA Disputes</a></h3>
+            <p>DIAC 2023 Rules vs. CIETAC: Choosing the Right Forum for Sino-MENA Disputes</p>
+          </div>
+        </article>
+
+        <article class="home_news__card">
+          <a class="home_news__image" href="#" aria-label="Read Saudi Vision 2030 and Chinese Investment article">
+            <img src="images/news/3.jpg" alt="Legal advisory session with notes" loading="lazy">
+          </a>
+          <div class="home_news__content">
+            <h3><a href="#">Saudi Vision 2030 &amp; Chinese Investment: Legal Frameworks and Entry Strategies</a></h3>
+            <p>Saudi Vision 2030 &amp; Chinese Investment: Legal Frameworks and Entry Strategies</p>
+          </div>
+        </article>
+
+        <article class="home_news__card">
+          <a class="home_news__image" href="#" aria-label="Read cross-border disputes article">
+            <img src="images/news/4.jpg" alt="Business people discussing legal strategy" loading="lazy">
+          </a>
+          <div class="home_news__content">
+            <h3><a href="#">DIAC 2023 Rules vs. CIETAC: Choosing the Right Forum for Sino-MENA Disputes</a></h3>
+            <p>DIAC 2023 Rules vs. CIETAC: Choosing the Right Forum for Sino-MENA Disputes</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="home_map" data-aos="fade-up" data-aos-duration="600">
+    <div class="container">
+      <div class="home_map__head">
+        <div class="home_map__title-wrap">
+          <div class="home_map__eyebrow">
+            <span class="home_map__eyebrow-dot"></span>
+            <span>Our Locations</span>
+          </div>
+
+          <h2 class="home_map_heading blue_color">Our Global Coverage</h2>
+        </div>
+
+        <a href="#" class="more ">Explore More <img src="images/more_arrow.svg" alt="Arrow" class="arrow"></a>
+      </div>
+
+
+    </div>
+    <div class="home_map__canvas-wrap">
+      <div id="homeCoverageMap" class="home_map__canvas" aria-label="Interactive map of Winson Global locations">
+      </div>
+    </div>
+    <div class="container">
+      <div class="home_map__carousel-wrap">
+        <div class="owl-carousel owl-theme home_map__carousel" aria-label="Winson Global location addresses"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="analysis">
+    <div class="container">
+      <div class="analysis__wrap">
+        <div class="analysis__content" data-aos="fade-up" data-aos-duration="600">
+          <div class="analysis__eyebrow">
+            <span class="analysis__eyebrow-dot"></span>
+            <span>Strategic Analysis Offered</span>
+          </div>
+
+          <h2 class="analysis_heading blue_color">How We Support Your<br>Cross-Border Journey<span
+              class="yellow_color">.</span></h2>
+          <p class="analysis__intro">Send us the documents for your case. Our senior partner will personally respond
+            within 24 hours with an initial strategic analysis of your situation.</p>
+
+          <div class="analysis__steps">
+            <article class="analysis__step">
+              <img src="images/how_we_support/icon1.svg" alt="" aria-hidden="true">
+              <h3>Contact Us</h3>
+              <p>Reach out to our team through our hotline or other contact channels to initiate your inquiry.</p>
+            </article>
+
+            <article class="analysis__step">
+              <img src="images/how_we_support/icon2.svg" alt="" aria-hidden="true">
+              <h3>Understand Your Needs</h3>
+              <p>Discuss your legal matter with our lawyers so we can clearly understand your objectives and
+                requirements.</p>
+            </article>
+
+            <article class="analysis__step">
+              <img src="images/how_we_support/icon3.svg" alt="" aria-hidden="true">
+              <h3>Preliminary Assessment &amp; Proposal</h3>
+              <p>We conduct initial research and develop a tailored legal approach, together with a proposed scope of
+                work.</p>
+            </article>
+
+            <article class="analysis__step">
+              <img src="images/how_we_support/icon4.svg" alt="" aria-hidden="true">
+              <h3>Engagement &amp; Execution</h3>
+              <p>Once you confirm, we'll formalize the engagement and move forward with the agreed legal services.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="analysis__form-panel" data-aos="fade-up" data-aos-duration="750">
+          <form class="analysis__form" action="#" method="post">
+            <div class="analysis__form-grid">
+              <div class="analysis__field">
+                <label for="analysisName">Enter Your Full Name</label>
+                <input id="analysisName" name="name" type="text" placeholder="Your Name">
+              </div>
+
+              <div class="analysis__field">
+                <label for="analysisPhone">Enter Phone Number/WhatsApp</label>
+                <input id="analysisPhone" name="phone" type="tel" placeholder="Phone Number">
+              </div>
+
+              <div class="analysis__field analysis__field--full">
+                <label for="analysisEmail">Enter Your Email Address</label>
+                <input id="analysisEmail" name="email" type="email" placeholder="Your Email ID">
+              </div>
+
+              <div class="analysis__field">
+                <label for="analysisService">Legal Services</label>
+                <select id="analysisService" name="service">
+                  <option value="">Select a Option...</option>
+                  <option>Corporate &amp; Investment</option>
+                  <option>Dispute Resolution &amp; Litigation</option>
+                  <option>Industry &amp; Infrastructure</option>
+                  <option>Innovation &amp; IP</option>
+                </select>
+              </div>
+
+              <div class="analysis__field">
+                <label for="analysisCountry">Jurisdiction / Country Involved</label>
+                <select id="analysisCountry" name="country">
+                  <option value="">Select a Option...</option>
+                  <option>China</option>
+                  <option>United Arab Emirates</option>
+                  <option>Saudi Arabia</option>
+                  <option>Oman</option>
+                  <option>Egypt</option>
+                  <option>Iraq</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="analysis__matter-title">Tell Us About Your Matter</div>
+
+            <div class="analysis__form-grid">
+              <div class="analysis__field analysis__field--full">
+                <label for="analysisOverview">Please provide a brief overview.</label>
+                <textarea id="analysisOverview" name="overview" rows="2"
+                  placeholder="All information submitted is treated with the utmost confidentiality and protected by strict data security protocols."></textarea>
+              </div>
+
+              <div class="analysis__field">
+                <label for="analysisFacts">Summary of Key Facts</label>
+                <textarea id="analysisFacts" name="facts" rows="2"
+                  placeholder="Please briefly outline the core facts of your case or project."></textarea>
+              </div>
+
+              <div class="analysis__field">
+                <label for="analysisObjectives">Your Objectives</label>
+                <textarea id="analysisObjectives" name="objectives" rows="2"
+                  placeholder="What outcome are you seeking?"></textarea>
+              </div>
+
+              <div class="analysis__field analysis__field--full">
+                <label for="analysisBudget">Budgetary Indication (Optional)</label>
+                <textarea id="analysisBudget" name="budget" rows="2"
+                  placeholder="To help us tailor our proposal, please feel free to share a preliminary budget range if available. This is not binding."></textarea>
+              </div>
+
+              <div class="analysis__field analysis__field--full">
+                <label class="analysis__upload" for="analysisFiles">
+                  <input id="analysisFiles" name="files" type="file" multiple>
+                  <span class="analysis__upload-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path
+                        d="M12 16V4m0 0 4.5 4.5M12 4 7.5 8.5M5 15v3.5A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5V15"
+                        fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span>Click or drag your files here.</span>
+                  <small>All formats accepted (PDF, Word, images, etc.)</small>
+                  <strong class="analysis__upload-name" id="analysisFileName">No file selected</strong>
+                </label>
+              </div>
+            </div>
+
+            <button class="analysis__submit" type="submit">
+              <span>Submit</span>
+              <img src="images/more_arrow.svg" alt="" aria-hidden="true">
+            </button>
+
+            <p class="analysis__note">We uphold the strict duty of client confidentiality and maintain rigorous data
+              security standards. All materials submitted, including any case-related supporting information, are
+              safeguarded by professional, high-grade encryption. Your trust is protected in its entirety.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faqs">
+    <div class="container">
+      <div class="faqs__wrap">
+        <div class="faqs__content" data-aos="fade-up" data-aos-duration="600">
+          <div class="faqs__eyebrow">
+            <span class="faqs__eyebrow-dot"></span>
+            <span>FAQ</span>
+          </div>
+
+          <h2 class="faqs_heading blue_color">Frequently Asked<br>Questions<span class="yellow_color">.</span></h2>
+          <p class="faqs__intro">Have questions about our cross-border legal services? We've answered the most common
+            ones below.</p>
+
+          <div class="faqs__cta">
+            <div class="faqs__cta-content">
+              <h3>Can't Find Your Answer?</h3>
+              <p>If you have a specific matter or need further detail, our team is available.</p>
+              <a href="#" class="more faqs__cta-link">Let's Talk <img src="images/more_arrow.svg" alt=""
+                  aria-hidden="true"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="faqs__accordion accordion" id="homeFaqAccordion" data-aos="fade-up" data-aos-duration="700">
+          <div class="faqs__item accordion-item">
+            <h3 class="accordion-header" id="faqHeadingOne">
+              <button class="faqs__button accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                <span>What types of cross-border matters does Winson Global handle?</span>
+                <span class="faqs__icon" aria-hidden="true"><img src="images/faq_arrow.svg" alt=""></span>
+              </button>
+            </h3>
+            <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne"
+              data-bs-parent="#homeFaqAccordion">
+              <div class="accordion-body">We handle a full range - cross-border investment, corporate structuring,
+                dispute resolution, debt recovery, criminal defense, maritime law, intellectual property, and
+                enforcement of foreign judgments in both China and MENA jurisdictions.</div>
+            </div>
+          </div>
+
+          <div class="faqs__item accordion-item">
+            <h3 class="accordion-header" id="faqHeadingTwo">
+              <button class="faqs__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                <span>Do you have lawyers who speak Chinese, English, and Arabic?</span>
+                <span class="faqs__icon" aria-hidden="true"><img src="images/faq_arrow.svg" alt=""></span>
+              </button>
+            </h3>
+            <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo"
+              data-bs-parent="#homeFaqAccordion">
+              <div class="accordion-body">Yes. Our multilingual team supports clients in Chinese, English, and Arabic
+                for cross-border advisory, negotiation, document review, and dispute matters.</div>
+            </div>
+          </div>
+
+          <div class="faqs__item accordion-item">
+            <h3 class="accordion-header" id="faqHeadingThree">
+              <button class="faqs__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                <span>Which countries and cities do you operate in?</span>
+                <span class="faqs__icon" aria-hidden="true"><img src="images/faq_arrow.svg" alt=""></span>
+              </button>
+            </h3>
+            <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree"
+              data-bs-parent="#homeFaqAccordion">
+              <div class="accordion-body">Our coverage includes key locations across China and the MENA region,
+                including Beijing, Shanghai, Hangzhou, Dubai, Riyadh, Oman, Cairo, and Baghdad.</div>
+            </div>
+          </div>
+
+          <div class="faqs__item accordion-item">
+            <h3 class="accordion-header" id="faqHeadingFour">
+              <button class="faqs__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+                <span>What makes Winson Global different from other international law firms?</span>
+                <span class="faqs__icon" aria-hidden="true"><img src="images/faq_arrow.svg" alt=""></span>
+              </button>
+            </h3>
+            <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour"
+              data-bs-parent="#homeFaqAccordion">
+              <div class="accordion-body">We combine China-MENA legal experience, multilingual communication, and
+                practical cross-border execution so clients can move quickly with clear jurisdictional guidance.</div>
+            </div>
+          </div>
+
+          <div class="faqs__item accordion-item">
+            <h3 class="accordion-header" id="faqHeadingFive">
+              <button class="faqs__button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive">
+                <span>How do I submit my case to Winson Global?</span>
+                <span class="faqs__icon" aria-hidden="true"><img src="images/faq_arrow.svg" alt=""></span>
+              </button>
+            </h3>
+            <div id="faqCollapseFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive"
+              data-bs-parent="#homeFaqAccordion">
+              <div class="accordion-body">You can submit your details through the strategic analysis form, upload
+                relevant documents, and our senior partner will review the matter and respond with next steps.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <a href="#" class="footer__logo" aria-label="Winson Global home">
+              <img src="images/logo.svg" alt="Winson Global">
+            </a>
+
+            <div class="footer__experience">
+              <strong>15<span>+</span></strong>
+              <p>Years of<br>Service Excellence</p>
+            </div>
+
+            <p class="footer__about">A leading cross-border law firm serving businesses and investors across China, the
+              UAE, and beyond.</p>
+          </div>
+
+          <nav class="footer__nav" aria-label="Footer services navigation">
+            <h3>Our Services</h3>
+            <ul>
+              <li><a href="#">Corporate &amp; Investment Law</a></li>
+              <li><a href="#">Regulatory &amp; Compliance</a></li>
+              <li><a href="#">International Arbitration</a></li>
+              <li><a href="#">Debt Recovery &amp; Enforcement</a></li>
+              <li><a href="#">Employment Law</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer__nav" aria-label="Footer offices navigation">
+            <h3>Our Offices</h3>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Join Us</a></li>
+            </ul>
+          </nav>
+
+          <div class="footer__contact">
+            <h3>Contact Us</h3>
+            <a class="footer__email" href="mailto:china_info@winsonglobal.com">
+              <svg viewBox="0 0 24 18" aria-hidden="true" focusable="false">
+                <path d="M1.5 1.5h21v15h-21z" fill="none" stroke="currentColor" stroke-width="1.5" />
+                <path d="m2 2 10 7 10-7" fill="none" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+              <span>china_info@winsonglobal.com</span>
+            </a>
+
+            <ul class="footer__social" aria-label="Social links">
+              <li><a href="#" aria-label="Xiaohongshu">小红书</a></li>
+              <li><a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a></li>
+              <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="#" aria-label="WeChat"><i class="fa-brands fa-weixin"></i></a></li>
+              <li><a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2026 Winson Global. All Rights Reserved.</p>
+        <ul>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!--  GSAP animation  -->
+  <script src="js/gsap.min.js" defer></script>
+  <script src="js/ScrollTrigger.min.js"></script>
+  <script src="js/gsap_script.js" defer></script>
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/jquery.flexslider-min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+  <script src='js/aos.js'></script>
+
+  <script src="js/smoothscroll.min.js"></script>
+
+
+  <!--  Text animation  -->
+  <!-- <script src="js/cursor.js"></script> -->
+
+
+
+  <script src='js/custom.js'></script>
+
+
+</body>
+
+</html>
